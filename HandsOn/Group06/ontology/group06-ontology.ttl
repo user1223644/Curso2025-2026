@@ -1,0 +1,57 @@
+@prefix ex: <https://example.org/group06/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/group06/ontology> a owl:Ontology ;
+    rdfs:label "Urban Green Areas Ontology - Group 06"@en ;
+    rdfs:comment "An ontology describing parks, tree species, and green zones in Madrid."@en .
+
+ex:area a owl:DatatypeProperty ;
+    rdfs:label "area"@en ;
+    rdfs:comment "Area of the park in square meters."@en ;
+    rdfs:domain ex:Park ;
+    rdfs:range xsd:decimal .
+
+ex:districtName a owl:DatatypeProperty ;
+    rdfs:label "district name"@en ;
+    rdfs:comment "The name of a Madrid district."@en ;
+    rdfs:domain ex:District ;
+    rdfs:range xsd:string .
+
+ex:hasSpecies a owl:ObjectProperty ;
+    rdfs:label "has species"@en ;
+    rdfs:comment "Relates a park to a tree species found there."@en ;
+    rdfs:domain ex:Park ;
+    rdfs:range ex:TreeSpecies .
+
+ex:hasTreeCount a owl:DatatypeProperty ;
+    rdfs:label "has tree count"@en ;
+    rdfs:comment "Number of trees of a given species in a park."@en ;
+    rdfs:domain ex:Park ;
+    rdfs:range xsd:integer .
+
+ex:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in"@en ;
+    rdfs:comment "Links a park to its administrative district."@en ;
+    rdfs:domain ex:Park ;
+    rdfs:range ex:District .
+
+ex:speciesName a owl:DatatypeProperty ;
+    rdfs:label "species name"@en ;
+    rdfs:comment "Scientific name of the tree species."@en ;
+    rdfs:domain ex:TreeSpecies ;
+    rdfs:range xsd:string .
+
+ex:District a owl:Class ;
+    rdfs:label "District"@en ;
+    rdfs:comment "An administrative district of Madrid."@en .
+
+ex:TreeSpecies a owl:Class ;
+    rdfs:label "Tree Species"@en ;
+    rdfs:comment "A species of tree found in parks."@en .
+
+ex:Park a owl:Class ;
+    rdfs:label "Park"@en ;
+    rdfs:comment "A park or green area in Madrid."@en .
+

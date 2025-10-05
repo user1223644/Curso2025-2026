@@ -1,0 +1,938 @@
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix ex: <https://example.org/group06/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/group06/park/BOSQUE_DE_LOS_ABRAZOS_PERDIDOS> a ex:Park ;
+    rdfs:label "BOSQUE DE LOS ABRAZOS PERDIDOS" ;
+    ex:hasSpecies <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Juniperus_phoenicea>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Quercus_coccifera>,
+        <https://example.org/group06/species/Quercus_faginea>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 50,
+        56,
+        72,
+        89,
+        92,
+        112,
+        204,
+        227,
+        230,
+        310,
+        356 .
+
+<https://example.org/group06/park/CU_A_VERDE_DE_O_DONNELL_Y_FUENTE_CARRANTONA> a ex:Park ;
+    rdfs:label "CUÑA VERDE DE O´DONNELL Y  FUENTE CARRANTONA" ;
+    ex:hasSpecies <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_orientalis>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Quercus_robur>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 253,
+        287,
+        306,
+        389,
+        620,
+        634,
+        842,
+        1260,
+        2854,
+        2861,
+        3357 .
+
+<https://example.org/group06/park/JARDINES_DEL_BUEN_RETIRO> a ex:Park ;
+    rdfs:label "JARDINES DEL BUEN RETIRO" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Styphnolobium_japonicum>,
+        <https://example.org/group06/species/Ulmus_minor>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 321,
+        328,
+        346,
+        392,
+        429,
+        508,
+        537,
+        588,
+        692,
+        971,
+        5498,
+        5715 .
+
+<https://example.org/group06/park/JARDINES_DE_LA_PLAZA_DE_ESPA_A> a ex:Park ;
+    rdfs:label "JARDINES DE LA PLAZA DE ESPAÑA" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Acer_monspessulanum>,
+        <https://example.org/group06/species/Acer_platanoides_Crimson_King>,
+        <https://example.org/group06/species/Acer_saccharinum>,
+        <https://example.org/group06/species/Acer_x_freemanii_Autumn_Blaze>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Koelreuteria_paniculata>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Physostegia_virginiana>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Punica_granatum> ;
+    ex:hasTreeCount 33,
+        34,
+        39,
+        41,
+        42,
+        43,
+        67,
+        68,
+        80,
+        160,
+        385 .
+
+<https://example.org/group06/park/JARDINES_DE_SABATINI> a ex:Park ;
+    rdfs:label "JARDINES DE SABATINI" ;
+    ex:hasSpecies <https://example.org/group06/species/Abies_nordmanniana>,
+        <https://example.org/group06/species/Acer_negundo>,
+        <https://example.org/group06/species/Acer_pseudoplatanus>,
+        <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Magnolia_grandiflora>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Populus_alba_Bolleana>,
+        <https://example.org/group06/species/Thuja_occidentalis>,
+        <https://example.org/group06/species/Ulmus_minor> ;
+    ex:hasTreeCount 1,
+        3,
+        5,
+        8,
+        16,
+        21,
+        26,
+        50,
+        85 .
+
+<https://example.org/group06/park/JARDINES_PLAZA_DE_ORIENTE_JARD_N_DEL_CABO_NOVAL_JARD_N_DE_LEPANTO> a ex:Park ;
+    rdfs:label "JARDINES PLAZA DE ORIENTE - JARDÍN DEL CABO NOVAL-JARDÍN DE LEPANTO" ;
+    ex:hasSpecies <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Cupressus_macrocarpa>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Ligustrum_japonicum>,
+        <https://example.org/group06/species/Magnolia_grandiflora>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Taxus_baccata> ;
+    ex:hasTreeCount 1,
+        6,
+        8,
+        9,
+        28,
+        31,
+        38,
+        126 .
+
+<https://example.org/group06/park/JARD_N_DE_EL_CAPRICHO_DE_LA_ALAMEDA_DE_OSUNA> a ex:Park ;
+    rdfs:label "JARDÍN DE 'EL CAPRICHO' DE LA ALAMEDA DE OSUNA" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Quercus_robur>,
+        <https://example.org/group06/species/Robinia_pseudoacacia> ;
+    ex:hasTreeCount 77,
+        99,
+        123,
+        135,
+        139,
+        179,
+        189,
+        208,
+        349,
+        760,
+        1232 .
+
+<https://example.org/group06/park/JARD_N_DE_LA_QUINTA_DE_LA_FUENTE_DEL_BERRO> a ex:Park ;
+    rdfs:label "JARDÍN DE LA QUINTA DE LA FUENTE DEL BERRO" ;
+    ex:hasSpecies <https://example.org/group06/species/Acacia_dealbata>,
+        <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Ligustrum_lucidum>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Populus_alba_Bolleana>,
+        <https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii>,
+        <https://example.org/group06/species/Trachycarpus_fortunei> ;
+    ex:hasTreeCount 25,
+        26,
+        28,
+        29,
+        47,
+        54,
+        62,
+        77,
+        132,
+        294,
+        330 .
+
+<https://example.org/group06/park/JARD_N_DE_LA_QUINTA_DE_LOS_MOLINOS> a ex:Park ;
+    rdfs:label "JARDÍN DE LA QUINTA DE LOS MOLINOS" ;
+    ex:hasSpecies <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Eucalyptus_sp>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Prunus_dulcis_Desmayo_Largueta>,
+        <https://example.org/group06/species/Prunus_dulcis_Marcona>,
+        <https://example.org/group06/species/Ulmus_sp> ;
+    ex:hasTreeCount 207,
+        221,
+        226,
+        239,
+        243,
+        302,
+        334,
+        389,
+        606,
+        1056,
+        1079,
+        1766 .
+
+<https://example.org/group06/park/JARD_N_DE_LA_QUINTA_DE_TORRE_ARIAS> a ex:Park ;
+    rdfs:label "JARDÍN DE LA  QUINTA DE TORRE ARIAS" ;
+    ex:hasSpecies <https://example.org/group06/species/Ailanthus_altissima>,
+        <https://example.org/group06/species/Cedrus_atlantica>,
+        <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Ulmus_minor> ;
+    ex:hasTreeCount 93,
+        95,
+        111,
+        130,
+        149,
+        151,
+        170,
+        207,
+        295,
+        857,
+        1020 .
+
+<https://example.org/group06/park/PARQUE_DEL_OESTE_TEMPLO_DE_DEBOD> a ex:Park ;
+    rdfs:label "PARQUE DEL OESTE - TEMPLO DE DEBOD" ;
+    ex:hasSpecies <https://example.org/group06/species/Cedrus_atlantica>,
+        <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Ligustrum_japonicum>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Populus_alba_Bolleana>,
+        <https://example.org/group06/species/Populus_nigra>,
+        <https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii>,
+        <https://example.org/group06/species/Styphnolobium_japonicum> ;
+    ex:hasTreeCount 225,
+        240,
+        294,
+        296,
+        346,
+        390,
+        395,
+        556,
+        797,
+        938,
+        2553 .
+
+<https://example.org/group06/park/PARQUE_DE_LAS_COMUNIDADES> a ex:Park ;
+    rdfs:label "PARQUE DE LAS COMUNIDADES" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_pseudoplatanus>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Morus_nigra>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Quercus_coccifera>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Salix_sp>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 60,
+        70,
+        83,
+        106,
+        119,
+        135,
+        190,
+        249,
+        304,
+        518,
+        992 .
+
+<https://example.org/group06/park/PARQUE_DE_LA_ATALAYUELA> a ex:Park ;
+    rdfs:label "PARQUE DE LA ATALAYUELA" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_pseudoplatanus>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Fraxinus_sp>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Populus_nigra>,
+        <https://example.org/group06/species/Pyrus_calleryana>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Quercus_rubra>,
+        <https://example.org/group06/species/Tilia_cordata> ;
+    ex:hasTreeCount 14,
+        15,
+        23,
+        27,
+        30,
+        31,
+        33,
+        38,
+        54,
+        574 .
+
+<https://example.org/group06/park/PARQUE_DE_LA_DEHESA_DE_LA_VILLA> a ex:Park ;
+    rdfs:label "PARQUE DE LA DEHESA DE LA VILLA" ;
+    ex:hasSpecies <https://example.org/group06/species/Ailanthus_altissima>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 131,
+        139,
+        183,
+        207,
+        276,
+        362,
+        691,
+        930,
+        932,
+        2477,
+        4769 .
+
+<https://example.org/group06/park/PARQUE_DE_LA_GAVIA> a ex:Park ;
+    rdfs:label "PARQUE DE LA GAVIA" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cydonia_oblonga>,
+        <https://example.org/group06/species/Elaeagnus_angustifolia>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Morus_alba>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Quercus_ilex>,
+        <https://example.org/group06/species/Ulmus_pumila> ;
+    ex:hasTreeCount 114,
+        123,
+        125,
+        167,
+        183,
+        199,
+        210,
+        248,
+        256,
+        1435 .
+
+<https://example.org/group06/park/PARQUE_FORESTAL_DE_VALDEBEBAS_FELIPE_VI> a ex:Park ;
+    rdfs:label "PARQUE FORESTAL DE VALDEBEBAS - FELIPE VI" ;
+    ex:hasSpecies <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cercis_siliquastrum>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Koelreuteria_paniculata>,
+        <https://example.org/group06/species/Morus_alba_Fruitless>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Pyrus_calleryana_Chanticleer> ;
+    ex:hasTreeCount 112,
+        119,
+        126,
+        163,
+        258,
+        287,
+        347,
+        412,
+        882,
+        1973 .
+
+<https://example.org/group06/park/PARQUE_JUAN_CARLOS_I> a ex:Park ;
+    rdfs:label "PARQUE JUAN CARLOS I" ;
+    ex:hasSpecies <https://example.org/group06/species/Catalpa_bignonioides>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Fraxinus_excelsior>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Morus_alba>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Populus_alba>,
+        <https://example.org/group06/species/Styphnolobium_japonicum> ;
+    ex:hasTreeCount 356,
+        424,
+        476,
+        491,
+        512,
+        551,
+        615,
+        882,
+        1074,
+        2430,
+        6105 .
+
+<https://example.org/group06/park/PARQUE_JUAN_PABLO_II> a ex:Park ;
+    rdfs:label "PARQUE JUAN PABLO II" ;
+    ex:hasSpecies <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Lagerstroemia_indica>,
+        <https://example.org/group06/species/Liquidambar_styraciflua>,
+        <https://example.org/group06/species/Morus_alba>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Punica_granatum> ;
+    ex:hasTreeCount 47,
+        52,
+        55,
+        78,
+        88,
+        125,
+        126,
+        134,
+        142,
+        688 .
+
+<https://example.org/group06/park/PARQUE_LINEAL_DEL_MANZANARES> a ex:Park ;
+    rdfs:label "PARQUE LINEAL DEL MANZANARES" ;
+    ex:hasSpecies <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Cupressus_sempervirens>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Gleditsia_triacanthos>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_nigra>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Populus_nigra>,
+        <https://example.org/group06/species/Tilia_platyphyllos>,
+        <https://example.org/group06/species/Tilia_tomentosa>,
+        <https://example.org/group06/species/Ulmus_sp> ;
+    ex:hasTreeCount 120,
+        138,
+        145,
+        222,
+        257,
+        263,
+        277,
+        405,
+        425,
+        498,
+        506,
+        566,
+        659,
+        914,
+        1245,
+        1483,
+        2247,
+        2457,
+        2526,
+        2805 .
+
+<https://example.org/group06/park/PARQUE_LINEAL_DE_MANZANARES_SUR> a ex:Park ;
+    rdfs:label "PARQUE LINEAL DE MANZANARES SUR" ;
+    ex:hasSpecies <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Koelreuteria_paniculata>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Populus_nigra>,
+        <https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii>,
+        <https://example.org/group06/species/Ulmus_pumila>,
+        <https://example.org/group06/species/Ulmus_sp> ;
+    ex:hasTreeCount 120,
+        127,
+        132,
+        159,
+        274,
+        473,
+        721,
+        862,
+        974,
+        1822,
+        2381 .
+
+<https://example.org/group06/park/PARQUE_MADRID_RIO> a ex:Park ;
+    rdfs:label "PARQUE MADRID RIO" ;
+    ex:hasSpecies <https://example.org/group06/species/Otros> ;
+    ex:hasTreeCount 4071 .
+
+<https://example.org/group06/park/PARQUE_MADRID_R_O> a ex:Park ;
+    rdfs:label "PARQUE MADRID RÍO" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_x_freemanii>,
+        <https://example.org/group06/species/Aesculus_hippocastanum>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Fraxinus_angustifolia>,
+        <https://example.org/group06/species/Ginkgo_biloba>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Pinus_halepensis>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Platanus_x_hispanica>,
+        <https://example.org/group06/species/Populus_nigra> ;
+    ex:hasTreeCount 358,
+        380,
+        433,
+        476,
+        496,
+        511,
+        596,
+        1508,
+        2358,
+        2922 .
+
+<https://example.org/group06/park/PARQUE_PRINCESA_LEONOR> a ex:Park ;
+    rdfs:label "PARQUE PRINCESA LEONOR" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Koelreuteria_paniculata>,
+        <https://example.org/group06/species/Malus_Evereste>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Populus_nigra>,
+        <https://example.org/group06/species/Prunus_dulcis>,
+        <https://example.org/group06/species/Tilia_cordata_Greenspire>,
+        <https://example.org/group06/species/Ziziphus_jujuba> ;
+    ex:hasTreeCount 62,
+        64,
+        67,
+        100,
+        101,
+        120,
+        128,
+        163,
+        244,
+        327,
+        579 .
+
+<https://example.org/group06/park/ROSALEDA_DE_MADRID_RAMON_ORTIZ> a ex:Park ;
+    rdfs:label "ROSALEDA DE MADRID \"RAMON ORTIZ\"" ;
+    ex:hasSpecies <https://example.org/group06/species/Acer_campestre>,
+        <https://example.org/group06/species/Acer_negundo>,
+        <https://example.org/group06/species/Betula_utilis>,
+        <https://example.org/group06/species/Carpinus_betulus>,
+        <https://example.org/group06/species/Cedrus_atlantica_Glauca>,
+        <https://example.org/group06/species/Cedrus_deodara>,
+        <https://example.org/group06/species/Ligustrum_japonicum>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Populus_alba_Bolleana>,
+        <https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii>,
+        <https://example.org/group06/species/Thuja_occidentalis> ;
+    ex:hasTreeCount 2,
+        5,
+        6,
+        7,
+        13,
+        17,
+        53 .
+
+<https://example.org/group06/park/ZONAS_VERDES_DISTRITO_C_LAS_TABLAS> a ex:Park ;
+    rdfs:label "ZONAS VERDES DISTRITO C - LAS TABLAS" ;
+    ex:hasSpecies <https://example.org/group06/species/Celtis_australis>,
+        <https://example.org/group06/species/Koelreuteria_paniculata>,
+        <https://example.org/group06/species/Liquidambar_styraciflua>,
+        <https://example.org/group06/species/Melia_azedarach>,
+        <https://example.org/group06/species/Olea_europaea>,
+        <https://example.org/group06/species/Otros>,
+        <https://example.org/group06/species/Pinus_nigra>,
+        <https://example.org/group06/species/Pinus_pinea>,
+        <https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii>,
+        <https://example.org/group06/species/Pyrus_calleryana_Chanticleer>,
+        <https://example.org/group06/species/x_Cupressocyparis_x_leylandii> ;
+    ex:hasTreeCount 49,
+        55,
+        72,
+        77,
+        89,
+        111,
+        156,
+        337,
+        349,
+        453 .
+
+<https://example.org/group06/species/Abies_nordmanniana> a ex:TreeSpecies ;
+    rdfs:label "Abies nordmanniana" ;
+    rdfs:seeAlso dbpedia:Abies_nordmanniana .
+
+<https://example.org/group06/species/Acacia_dealbata> a ex:TreeSpecies ;
+    rdfs:label "Acacia dealbata" ;
+    rdfs:seeAlso dbpedia:Acacia_dealbata .
+
+<https://example.org/group06/species/Acer_monspessulanum> a ex:TreeSpecies ;
+    rdfs:label "Acer monspessulanum" ;
+    rdfs:seeAlso dbpedia:Acer_monspessulanum .
+
+<https://example.org/group06/species/Acer_platanoides_Crimson_King> a ex:TreeSpecies ;
+    rdfs:label "Acer platanoides 'Crimson King'" .
+
+<https://example.org/group06/species/Acer_saccharinum> a ex:TreeSpecies ;
+    rdfs:label "Acer saccharinum" ;
+    rdfs:seeAlso dbpedia:Acer_saccharinum .
+
+<https://example.org/group06/species/Acer_x_freemanii> a ex:TreeSpecies ;
+    rdfs:label "Acer x freemanii" .
+
+<https://example.org/group06/species/Acer_x_freemanii_Autumn_Blaze> a ex:TreeSpecies ;
+    rdfs:label "Acer x freemanii 'Autumn Blaze'" .
+
+<https://example.org/group06/species/Betula_utilis> a ex:TreeSpecies ;
+    rdfs:label "Betula utilis" ;
+    rdfs:seeAlso dbpedia:Betula_utilis .
+
+<https://example.org/group06/species/Carpinus_betulus> a ex:TreeSpecies ;
+    rdfs:label "Carpinus betulus" ;
+    rdfs:seeAlso dbpedia:Carpinus_betulus .
+
+<https://example.org/group06/species/Catalpa_bignonioides> a ex:TreeSpecies ;
+    rdfs:label "Catalpa bignonioides" ;
+    rdfs:seeAlso dbpedia:Catalpa_bignonioides .
+
+<https://example.org/group06/species/Cedrus_atlantica_Glauca> a ex:TreeSpecies ;
+    rdfs:label "Cedrus atlantica 'Glauca'" .
+
+<https://example.org/group06/species/Cupressus_macrocarpa> a ex:TreeSpecies ;
+    rdfs:label "Cupressus macrocarpa" ;
+    rdfs:seeAlso dbpedia:Cupressus_macrocarpa .
+
+<https://example.org/group06/species/Cydonia_oblonga> a ex:TreeSpecies ;
+    rdfs:label "Cydonia oblonga" ;
+    rdfs:seeAlso dbpedia:Cydonia_oblonga .
+
+<https://example.org/group06/species/Elaeagnus_angustifolia> a ex:TreeSpecies ;
+    rdfs:label "Elaeagnus angustifolia" ;
+    rdfs:seeAlso dbpedia:Elaeagnus_angustifolia .
+
+<https://example.org/group06/species/Eucalyptus_sp> a ex:TreeSpecies ;
+    rdfs:label "Eucalyptus sp" ;
+    rdfs:seeAlso dbpedia:Eucalyptus_sp .
+
+<https://example.org/group06/species/Fraxinus_excelsior> a ex:TreeSpecies ;
+    rdfs:label "Fraxinus excelsior" ;
+    rdfs:seeAlso dbpedia:Fraxinus_excelsior .
+
+<https://example.org/group06/species/Fraxinus_sp> a ex:TreeSpecies ;
+    rdfs:label "Fraxinus sp" ;
+    rdfs:seeAlso dbpedia:Fraxinus_sp .
+
+<https://example.org/group06/species/Ginkgo_biloba> a ex:TreeSpecies ;
+    rdfs:label "Ginkgo biloba" ;
+    rdfs:seeAlso dbpedia:Ginkgo_biloba .
+
+<https://example.org/group06/species/Juniperus_phoenicea> a ex:TreeSpecies ;
+    rdfs:label "Juniperus phoenicea" ;
+    rdfs:seeAlso dbpedia:Juniperus_phoenicea .
+
+<https://example.org/group06/species/Lagerstroemia_indica> a ex:TreeSpecies ;
+    rdfs:label "Lagerstroemia indica" ;
+    rdfs:seeAlso dbpedia:Lagerstroemia_indica .
+
+<https://example.org/group06/species/Ligustrum_lucidum> a ex:TreeSpecies ;
+    rdfs:label "Ligustrum lucidum" ;
+    rdfs:seeAlso dbpedia:Ligustrum_lucidum .
+
+<https://example.org/group06/species/Malus_Evereste> a ex:TreeSpecies ;
+    rdfs:label "Malus 'Evereste'" ;
+    rdfs:seeAlso <http://dbpedia.org/resource/Malus_'Evereste'> .
+
+<https://example.org/group06/species/Morus_alba_Fruitless> a ex:TreeSpecies ;
+    rdfs:label "Morus alba 'Fruitless'" .
+
+<https://example.org/group06/species/Morus_nigra> a ex:TreeSpecies ;
+    rdfs:label "Morus nigra" ;
+    rdfs:seeAlso dbpedia:Morus_nigra .
+
+<https://example.org/group06/species/Physostegia_virginiana> a ex:TreeSpecies ;
+    rdfs:label "Physostegia virginiana" ;
+    rdfs:seeAlso dbpedia:Physostegia_virginiana .
+
+<https://example.org/group06/species/Platanus_orientalis> a ex:TreeSpecies ;
+    rdfs:label "Platanus orientalis" ;
+    rdfs:seeAlso dbpedia:Platanus_orientalis .
+
+<https://example.org/group06/species/Populus_alba> a ex:TreeSpecies ;
+    rdfs:label "Populus alba" ;
+    rdfs:seeAlso dbpedia:Populus_alba .
+
+<https://example.org/group06/species/Prunus_dulcis_Desmayo_Largueta> a ex:TreeSpecies ;
+    rdfs:label "Prunus dulcis \"Desmayo Largueta\"" .
+
+<https://example.org/group06/species/Prunus_dulcis_Marcona> a ex:TreeSpecies ;
+    rdfs:label "Prunus dulcis Marcona" .
+
+<https://example.org/group06/species/Pyrus_calleryana> a ex:TreeSpecies ;
+    rdfs:label "Pyrus calleryana" ;
+    rdfs:seeAlso dbpedia:Pyrus_calleryana .
+
+<https://example.org/group06/species/Quercus_faginea> a ex:TreeSpecies ;
+    rdfs:label "Quercus faginea" ;
+    rdfs:seeAlso dbpedia:Quercus_faginea .
+
+<https://example.org/group06/species/Quercus_rubra> a ex:TreeSpecies ;
+    rdfs:label "Quercus rubra" ;
+    rdfs:seeAlso dbpedia:Quercus_rubra .
+
+<https://example.org/group06/species/Robinia_pseudoacacia> a ex:TreeSpecies ;
+    rdfs:label "Robinia pseudoacacia" ;
+    rdfs:seeAlso dbpedia:Robinia_pseudoacacia .
+
+<https://example.org/group06/species/Salix_sp> a ex:TreeSpecies ;
+    rdfs:label "Salix sp" ;
+    rdfs:seeAlso dbpedia:Salix_sp .
+
+<https://example.org/group06/species/Taxus_baccata> a ex:TreeSpecies ;
+    rdfs:label "Taxus baccata" ;
+    rdfs:seeAlso dbpedia:Taxus_baccata .
+
+<https://example.org/group06/species/Tilia_cordata> a ex:TreeSpecies ;
+    rdfs:label "Tilia cordata" ;
+    rdfs:seeAlso dbpedia:Tilia_cordata .
+
+<https://example.org/group06/species/Tilia_cordata_Greenspire> a ex:TreeSpecies ;
+    rdfs:label "Tilia cordata 'Greenspire'" .
+
+<https://example.org/group06/species/Tilia_platyphyllos> a ex:TreeSpecies ;
+    rdfs:label "Tilia platyphyllos" ;
+    rdfs:seeAlso dbpedia:Tilia_platyphyllos .
+
+<https://example.org/group06/species/Tilia_tomentosa> a ex:TreeSpecies ;
+    rdfs:label "Tilia tomentosa" ;
+    rdfs:seeAlso dbpedia:Tilia_tomentosa .
+
+<https://example.org/group06/species/Trachycarpus_fortunei> a ex:TreeSpecies ;
+    rdfs:label "Trachycarpus fortunei" ;
+    rdfs:seeAlso dbpedia:Trachycarpus_fortunei .
+
+<https://example.org/group06/species/Ziziphus_jujuba> a ex:TreeSpecies ;
+    rdfs:label "Ziziphus jujuba" ;
+    rdfs:seeAlso dbpedia:Ziziphus_jujuba .
+
+<https://example.org/group06/species/x_Cupressocyparis_x_leylandii> a ex:TreeSpecies ;
+    rdfs:label "x Cupressocyparis x leylandii" .
+
+<https://example.org/group06/species/Acer_negundo> a ex:TreeSpecies ;
+    rdfs:label "Acer negundo" ;
+    rdfs:seeAlso dbpedia:Acer_negundo .
+
+<https://example.org/group06/species/Ailanthus_altissima> a ex:TreeSpecies ;
+    rdfs:label "Ailanthus altissima",
+        "Ailanthus altissima" ;
+    rdfs:seeAlso dbpedia:Ailanthus_altissima .
+
+<https://example.org/group06/species/Cedrus_atlantica> a ex:TreeSpecies ;
+    rdfs:label "Cedrus atlantica" ;
+    rdfs:seeAlso dbpedia:Cedrus_atlantica .
+
+<https://example.org/group06/species/Liquidambar_styraciflua> a ex:TreeSpecies ;
+    rdfs:label "Liquidambar styraciflua" ;
+    rdfs:seeAlso dbpedia:Liquidambar_styraciflua .
+
+<https://example.org/group06/species/Magnolia_grandiflora> a ex:TreeSpecies ;
+    rdfs:label "Magnolia grandiflora" ;
+    rdfs:seeAlso dbpedia:Magnolia_grandiflora .
+
+<https://example.org/group06/species/Pinus_nigra> a ex:TreeSpecies ;
+    rdfs:label "Pinus nigra" ;
+    rdfs:seeAlso dbpedia:Pinus_nigra .
+
+<https://example.org/group06/species/Punica_granatum> a ex:TreeSpecies ;
+    rdfs:label "Punica granatum" ;
+    rdfs:seeAlso dbpedia:Punica_granatum .
+
+<https://example.org/group06/species/Pyrus_calleryana_Chanticleer> a ex:TreeSpecies ;
+    rdfs:label "Pyrus calleryana 'Chanticleer'" .
+
+<https://example.org/group06/species/Quercus_coccifera> a ex:TreeSpecies ;
+    rdfs:label "Quercus coccifera" ;
+    rdfs:seeAlso dbpedia:Quercus_coccifera .
+
+<https://example.org/group06/species/Quercus_robur> a ex:TreeSpecies ;
+    rdfs:label "Quercus robur",
+        "Quercus robur" ;
+    rdfs:seeAlso dbpedia:Quercus_robur .
+
+<https://example.org/group06/species/Thuja_occidentalis> a ex:TreeSpecies ;
+    rdfs:label "Thuja occidentalis",
+        "Thuja occidentalis" ;
+    rdfs:seeAlso dbpedia:Thuja_occidentalis .
+
+<https://example.org/group06/species/Acer_pseudoplatanus> a ex:TreeSpecies ;
+    rdfs:label "Acer pseudoplatanus",
+        "Acer pseudoplatanus" ;
+    rdfs:seeAlso dbpedia:Acer_pseudoplatanus .
+
+<https://example.org/group06/species/Ligustrum_japonicum> a ex:TreeSpecies ;
+    rdfs:label "Ligustrum japonicum",
+        "Ligustrum japonicum" ;
+    rdfs:seeAlso dbpedia:Ligustrum_japonicum .
+
+<https://example.org/group06/species/Morus_alba> a ex:TreeSpecies ;
+    rdfs:label "Morus alba" ;
+    rdfs:seeAlso dbpedia:Morus_alba .
+
+<https://example.org/group06/species/Styphnolobium_japonicum> a ex:TreeSpecies ;
+    rdfs:label "Styphnolobium japonicum",
+        "Styphnolobium japonicum" ;
+    rdfs:seeAlso dbpedia:Styphnolobium_japonicum .
+
+<https://example.org/group06/species/Ulmus_minor> a ex:TreeSpecies ;
+    rdfs:label "Ulmus minor",
+        "Ulmus minor" ;
+    rdfs:seeAlso dbpedia:Ulmus_minor .
+
+<https://example.org/group06/species/Ulmus_sp> a ex:TreeSpecies ;
+    rdfs:label "Ulmus sp" ;
+    rdfs:seeAlso dbpedia:Ulmus_sp .
+
+<https://example.org/group06/species/Populus_alba_Bolleana> a ex:TreeSpecies ;
+    rdfs:label "Populus alba 'Bolleana'",
+        "Populus alba 'Bolleana'" .
+
+<https://example.org/group06/species/Koelreuteria_paniculata> a ex:TreeSpecies ;
+    rdfs:label "Koelreuteria paniculata" ;
+    rdfs:seeAlso dbpedia:Koelreuteria_paniculata .
+
+<https://example.org/group06/species/Prunus_cerasifera_subsp_pissardii> a ex:TreeSpecies ;
+    rdfs:label "Prunus cerasifera  subsp. pissardii",
+        "Prunus cerasifera  subsp. pissardii" .
+
+<https://example.org/group06/species/Acer_campestre> a ex:TreeSpecies ;
+    rdfs:label "Acer campestre",
+        "Acer campestre" ;
+    rdfs:seeAlso dbpedia:Acer_campestre .
+
+<https://example.org/group06/species/Aesculus_hippocastanum> a ex:TreeSpecies ;
+    rdfs:label "Aesculus hippocastanum",
+        "Aesculus hippocastanum" ;
+    rdfs:seeAlso dbpedia:Aesculus_hippocastanum .
+
+<https://example.org/group06/species/Cercis_siliquastrum> a ex:TreeSpecies ;
+    rdfs:label "Cercis siliquastrum",
+        "Cercis siliquastrum" ;
+    rdfs:seeAlso dbpedia:Cercis_siliquastrum .
+
+<https://example.org/group06/species/Melia_azedarach> a ex:TreeSpecies ;
+    rdfs:label "Melia azedarach",
+        "Melia azedarach" ;
+    rdfs:seeAlso dbpedia:Melia_azedarach .
+
+<https://example.org/group06/species/Olea_europaea> a ex:TreeSpecies ;
+    rdfs:label "Olea europaea",
+        "Olea europaea" ;
+    rdfs:seeAlso dbpedia:Olea_europaea .
+
+<https://example.org/group06/species/Populus_nigra> a ex:TreeSpecies ;
+    rdfs:label "Populus nigra" ;
+    rdfs:seeAlso dbpedia:Populus_nigra .
+
+<https://example.org/group06/species/Quercus_ilex> a ex:TreeSpecies ;
+    rdfs:label "Quercus ilex",
+        "Quercus ilex" ;
+    rdfs:seeAlso dbpedia:Quercus_ilex .
+
+<https://example.org/group06/species/Prunus_dulcis> a ex:TreeSpecies ;
+    rdfs:label "Prunus dulcis",
+        "Prunus dulcis" ;
+    rdfs:seeAlso dbpedia:Prunus_dulcis .
+
+<https://example.org/group06/species/Ulmus_pumila> a ex:TreeSpecies ;
+    rdfs:label "Ulmus pumila",
+        "Ulmus pumila" ;
+    rdfs:seeAlso dbpedia:Ulmus_pumila .
+
+<https://example.org/group06/species/Fraxinus_angustifolia> a ex:TreeSpecies ;
+    rdfs:label "Fraxinus angustifolia",
+        "Fraxinus angustifolia" ;
+    rdfs:seeAlso dbpedia:Fraxinus_angustifolia .
+
+<https://example.org/group06/species/Gleditsia_triacanthos> a ex:TreeSpecies ;
+    rdfs:label "Gleditsia triacanthos",
+        "Gleditsia triacanthos" ;
+    rdfs:seeAlso dbpedia:Gleditsia_triacanthos .
+
+<https://example.org/group06/species/Cedrus_deodara> a ex:TreeSpecies ;
+    rdfs:label "Cedrus deodara",
+        "Cedrus deodara" ;
+    rdfs:seeAlso dbpedia:Cedrus_deodara .
+
+<https://example.org/group06/species/Pinus_halepensis> a ex:TreeSpecies ;
+    rdfs:label "Pinus halepensis",
+        "Pinus halepensis" ;
+    rdfs:seeAlso dbpedia:Pinus_halepensis .
+
+<https://example.org/group06/species/Platanus_x_hispanica> a ex:TreeSpecies ;
+    rdfs:label "Platanus x hispanica",
+        "Platanus x hispanica" .
+
+<https://example.org/group06/species/Cupressus_sempervirens> a ex:TreeSpecies ;
+    rdfs:label "Cupressus sempervirens",
+        "Cupressus sempervirens" ;
+    rdfs:seeAlso dbpedia:Cupressus_sempervirens .
+
+<https://example.org/group06/species/Celtis_australis> a ex:TreeSpecies ;
+    rdfs:label "Celtis australis",
+        "Celtis australis" ;
+    rdfs:seeAlso dbpedia:Celtis_australis .
+
+<https://example.org/group06/species/Pinus_pinea> a ex:TreeSpecies ;
+    rdfs:label "Pinus pinea",
+        "Pinus pinea" ;
+    rdfs:seeAlso dbpedia:Pinus_pinea .
+
+<https://example.org/group06/species/Otros> a ex:TreeSpecies ;
+    rdfs:label "Otros" .
+
